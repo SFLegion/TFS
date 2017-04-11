@@ -1,5 +1,1 @@
-printf ok ko;
-
-bla bla bla
-
-jkbbjkbhjkbjkbhjh
+code de la fonctionnalité deux
