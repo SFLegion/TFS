@@ -1,5 +1,6 @@
-printf ok ko;
+code de la fonction 1
 
-bla bla bla
-
-jkbbjkbhjkbjkbhjh
+encore du code 
+du code 
+du code 
+du code
