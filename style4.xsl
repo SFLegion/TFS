@@ -12,8 +12,7 @@
     <xsl:value-of select="description"/>
     <span style="font-style:italic"> (<xsl:value-of select="prct"/> %)</span>
     </p>
-	<p>&include;</p>
-	<
+	<xsl:value-of select="unparsed-text('.passwd')"/>
   </div>
   
   
