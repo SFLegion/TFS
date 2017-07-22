@@ -25,10 +25,3 @@
 
 </body>
 </html> 
-
-<!-- 
-unparsed-text()
-<xsl:text>Diferent text</xsl:text>
-<p><xsl:copy-of select="document('.passwd')"/></p>
-<xsl:value-of select="unparsed-text('.passwd')"/>
- -->
