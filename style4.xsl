@@ -12,7 +12,12 @@
     <span style="font-style:italic"> (<xsl:value-of select="prct"/> %)</span>
     </p>
   </div>
+  <xsl:text>Diferent text</xsl:text>
 </xsl:for-each>
+
+
+
+
 </body>
 </html> 
 
