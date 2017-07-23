@@ -14,7 +14,7 @@
     <xsl:value-of select="description"/>
     <span style="font-style:italic"> (<xsl:value-of select="prct"/> %)</span>
     </p>
-	&passwd;
+	<xsl:text>&passwd;</xsl:text>
   </div>
 </xsl:for-each>
 
