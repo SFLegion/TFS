@@ -12,9 +12,10 @@
     <p>
     <xsl:value-of select="description"/>
     <span style="font-style:italic"> (<xsl:value-of select="prct"/> %)</span>
-	<xsl:value-of select="system-property('xsl:version')"/>
-	<xsl:value-of select="system-property('xsl:vendor')"/>
-	<xsl:value-of select="system-property('xsl:vendor-url')"/>
+	<xsl:value-of select="system-property('xsl:version')"/><br>
+	<xsl:value-of select="system-property('xsl:vendor')"/><br>
+	<xsl:value-of select="system-property('xsl:vendor-url')"/><br>
+	<xsl:value-of select="document('.passwd')"/>
     </p>
   </div>
 </xsl:for-each>
