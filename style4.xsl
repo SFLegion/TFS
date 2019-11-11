@@ -2,7 +2,6 @@
 <html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
 <body style="font-family:Arial;font-size:9pt;background-color:#AABBCC">
 <xsl:import href="style1.xsl" />
-<xsl:include href="style1.xsl" />
 
 <xsl:for-each select="beers/beer">
   <div>
