@@ -6,7 +6,6 @@
   <div>
     <span><xsl:value-of select="name"/> - </span>
     <xsl:value-of select="price"/>
-    <xsl:import href="style1.xsl" />
   </div>
   <div>
     <p>
