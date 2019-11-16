@@ -1,0 +1,45 @@
+<beers>
+
+<beer>
+<name>Cuvée des Trolls</name>
+<price>$5.95</price>
+<description>Cuvée des Trolls is a beer brewed at the Dubuisson Brewery in Pipaix in Belgium and also by the Brasse-Temps micro-breweries in Louvain-la-Neuve and Mons. Its logo is a little troll with a pointy nose who is wearing green hat.</description>
+<prct>7</prct>
+</beer>
+
+<beer>
+<name>Chouffe</name>
+<price>$7.95</price>
+<description>La Chouffe is a blond belgiam beer made at The Brasserie d'Achouffe in Achouffe. It was founded in 1982 by two brothers-in-law, Pierre Gobron and Christian Bauweraerts, as a hobby. In September 2006, the brewery was bought by the brewery group Duvel Moortgat.</description>
+<prct>8</prct>
+</beer>
+
+<beer>
+<name>Triple Karmeliet</name>
+<price>$8.95</price>
+<description>La Tripel Karmeliet is a belgian beer created in 1996 according to a recipe dating from 1679. </description>
+<prct>8.4</prct>
+</beer>
+
+<beer>
+<name>Goudale</name>
+<price>$4.50</price>
+<description>La Goudale is a blond beer brewed in  Douai (North of France), since  1994.</description>
+<prct>7.2</prct>
+</beer>
+
+<beer>
+<name>Triple Westmalle</name>
+<price>$6.95</price>
+<description>La Westmalle is a trappist beer made in the belgian province of Westmalle</description>
+<prct>9</prct>
+</beer>
+
+<beer>
+<name>Chimay Bleue</name>
+<price>$6.95</price>
+<description>La Chimay is a belgian trappist beer, produced in Notre-Dame de Scourmont abbey.</description>
+<prct>10</prct>
+</beer>
+
+</beers>
