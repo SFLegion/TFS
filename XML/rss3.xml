@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE request [<!ENTITY include SYSTEM “file=index.php">]>
+<!DOCTYPE request [<!ENTITY include SYSTEM 'file=index.php'>]>
 <rss version="2.0">
 
 <channel>
