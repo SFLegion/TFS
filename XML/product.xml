@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+	<product>1234</product>
+	<count>1</count>
+	<orderer>
+		<contact>Jan P. Monsch</contact>
+		<account>789</account>
+	</orderer>
+</order>
